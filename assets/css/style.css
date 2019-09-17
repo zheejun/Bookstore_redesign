@@ -138,6 +138,8 @@
     display: flex;
     justify-content:space-between;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .space-around {
@@ -153,15 +155,22 @@
     width: 300px;
     text-align: center;
     line-height: 40px;
+    align-items: center;
+
 
 }
 
 .flex-item1 {
     background-color: beige;
     color: blueviolet;
-    background-image: url(../images/桑格logo.jpg);
-
 }
+
+
+.flex-item1 img{
+    float: left;
+    position: relative;
+    object-fit: cover;
+    }
 
 .flex-item2 {
     background: chartreuse;
